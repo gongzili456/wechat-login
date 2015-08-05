@@ -20,6 +20,8 @@ router.get('/login', wechat({
 }, CallBack);
 ```
 
+The `appID` and `appSecret` is required, and `domain` is optional as your callback domain that config wechat.
+
 The `CallBack` function use to accept wechat user info and token has two way.
 
 ##Use function parameters
