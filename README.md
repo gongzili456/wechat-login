@@ -10,7 +10,8 @@ var wechat = require('wechat-login');
 
 router.get('/login', wechat({
   appID: '{{appID}}',
-  appSecret: '{{appSecret}}'
+  appSecret: '{{appSecret}}',
+  domain: '{{api.example.com}}'
 }, CallBack);
 ```
 
