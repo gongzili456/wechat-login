@@ -1,5 +1,5 @@
 {
-  "name": "open-wechat",
+  "name": "wechat-login",
   "version": "1.0.0",
   "description": "A koa middleware for wechat login open API",
   "main": "index.js",
@@ -7,5 +7,9 @@
   "license": "ISC",
   "dependencies": {
     "co-request": "^0.2.1"
+  },
+  "devDependencies": {
+    "koa": "^0.21.0",
+    "koa-router": "^5.1.2"
   }
 }
