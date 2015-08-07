@@ -1,3 +1,3 @@
-var Wechat = require('Wechat');
+var Wechat = require('./lib/Wechat');
 
 module.exports = Wechat;
