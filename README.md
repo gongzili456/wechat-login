@@ -17,9 +17,9 @@ router.get('/login', wechat({
 
 ###Notice
 **You should same config between koa's router path and wechat callback domain.**
-The `appID` and `appSecret` is required, and `domain` is optional as your callback domain that config wechat.
+The configures of `appID` and `appSecret` are required while the configure of domain, which is  your callback domain of WeChat public platform, is optional. 
 The `domain` default value is you host name.
-The `CallBack` function use to accept wechat user info and token has two way.
+The `CallBack` function has two ways to accept wechat user info and token.
 
 ##Use function parameters
 ```
