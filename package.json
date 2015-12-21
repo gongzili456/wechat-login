@@ -1,6 +1,6 @@
 {
   "name": "wechat-login",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A koa middleware for wechat login open API",
   "main": "index.js",
   "author": "liuguili <gongzili456@gmail.com> (http://geeekr.com)",
